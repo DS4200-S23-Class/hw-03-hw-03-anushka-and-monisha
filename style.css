@@ -1,0 +1,27 @@
+/*setting page font to Arial*/
+body {
+    font-family: Arial;
+}
+
+/* Create id tage for all centered text */
+#centered {
+    text-align: center;
+}
+
+
+/* create class for a flexbox row */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* create class for a flexbox column */
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
