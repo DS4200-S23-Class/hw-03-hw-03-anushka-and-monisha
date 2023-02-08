@@ -25,3 +25,9 @@ body {
   flex-basis: 100%;
   flex: 1;
 }
+
+
+/* create id tag for a smaller img */
+#small{
+  max-width:60%
+}
